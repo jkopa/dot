@@ -142,6 +142,7 @@ alias v='nvim'
 alias python='python3'
 alias py='python3'
 alias gap='git add -p'
+alias c='clear'
 
 if [[ ! $TERM =~ screen ]]; then
     exec tmux
