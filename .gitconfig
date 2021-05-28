@@ -1,0 +1,18 @@
+[user]
+	email = jarkopaczewski@gmail.com
+	name = jkopa
+[core]
+	editor = nvim
+[color]
+	ui = true
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
