@@ -5,6 +5,9 @@ local function map(mode, lhs, rhs, opts)
 end
 local opts = {noremap = true, silent = true}
 
+map('i', '<C-j>', '<ESC>', opts)
+map('v', '<C-j>', '<ESC>', opts)
+
 -- save with ctrl-s
 map('n', '<C-s>', '<cmd>update<CR>', opts)
 map('i', '<C-s>', '<C-o><cmd>update<CR>', opts)
