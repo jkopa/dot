@@ -76,6 +76,7 @@ if ${use_color} ; then
 	fi
 
 	alias ls='exa --color=auto'
+	alias ll='exa -l --color=auto'
 	alias l='exa --color=auto'
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
@@ -150,3 +151,5 @@ if [[ ! $TERM =~ screen ]]; then
 fi
 
 . "$HOME/.cargo/env"
+
+source $HOME/vulkan/1.2.176.1/setup-env.sh
