@@ -76,6 +76,7 @@ if ${use_color} ; then
 	fi
 
 	alias ls='exa --color=auto'
+	alias la='exa -a --color=auto'
 	alias ll='exa -l --color=auto'
 	alias l='exa --color=auto'
 	alias grep='grep --colour=auto'
