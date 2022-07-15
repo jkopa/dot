@@ -8,10 +8,9 @@ if fn.empty(fn.glob(install_path)) > 0 then
   execute 'packadd packer.nvim'
 end
 
-package.path = package.path .. "/home/jarek/.config/nvim/"
+package.path = package.path .. "~/.config/nvim/"
 
 require 'plugins'
 require 'opts'
 require 'binds'
 require 'setup'
-vim.cmd('colo gruvbox')
