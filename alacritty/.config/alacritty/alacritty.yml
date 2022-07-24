@@ -4,7 +4,7 @@ window:
     instance: Alacritty
     general: Alacritty
   gtk_theme_variant: None
-  opacity: 0.93
+  opacity: 0.98
 
 scrolling:
   history: 10000
@@ -21,64 +21,31 @@ font:
 
 cursor:
   style: Block
-# Colors (Gruvbox Material Dark Medium)
+
 colors:
   primary:
-    background: '0x282828'
-    foreground: '0xdfbf8e'
+    #background: '0x1a1b26'
+    background: '0x191919'
+    foreground: '0xa9b1d6'
 
+  # Normal colors
   normal:
-    black:   '0x665c54'
-    red:     '0xea6962'
-    green:   '0xa9b665'
-    yellow:  '0xe78a4e'
-    blue:    '0x7daea3'
-    magenta: '0xd3869b'
-    cyan:    '0x89b482'
-    white:   '0xdfbf8e'
+    black:   '0x32344a'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xad8ee6'
+    cyan:    '0x449dab'
+    white:   '0x787c99'
 
+  # Bright colors
   bright:
-    black:   '0x928374'
-    red:     '0xea6962'
-    green:   '0xa9b665'
-    yellow:  '0xe3a84e'
-    blue:    '0x7daea3'
-    magenta: '0xd3869b'
-    cyan:    '0x89b482'
-    white:   '0xdfbf8e'
-#color scheme inspired by breath2 console theme from manjaro
-# colors:
-#   primary:
-#     background: '#1e2229'
-#     foreground: '#17a88b'
-#     dim_foreground: '#149678'
-#   cursor:
-#     text: '#2e3440'
-#     cursor: '#17a88b'
-#   normal:
-#     black: '#1e2229'
-#     red: '#ed1515'
-#     green: '#44853a'
-#     yellow: '#f67400'
-#     blue: '#1d99f3'
-#     magenta: '#9b59b6'
-#     cyan: '#1abc9c'
-#     white: '#fcfcfc'
-#   bright:
-#     black: '#7f8c8d'
-#     red: '#c0392b'
-#     green: '#55a649'
-#     yellow: '#fdbc4b'
-#     blue: '#3daee9'
-#     magenta: '#8e44ad'
-#     cyan: '#16a085'
-#     white: '#ffffff'
-#   dim:
-#     black: '#2e3439'
-#     red: '#783228'
-#     green: '#32642c'
-#     yellow: '#b65619'
-#     blue: '#1b668f'
-#     magenta: '#614a73'
-#     cyan: '#186c60'
-#     white: '#63686d'
+    black:   '0x444b6a'
+    red:     '0xff7a93'
+    green:   '0xb9f27c'
+    yellow:  '0xff9e64'
+    blue:    '0x7da6ff'
+    magenta: '0xbb9af7'
+    cyan:    '0x0db9d7'
+    white:   '0xacb0d0'
