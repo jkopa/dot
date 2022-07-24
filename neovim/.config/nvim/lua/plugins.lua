@@ -3,6 +3,7 @@ vim.cmd('packadd packer.nvim')
 --vim.cmd('packadd nvim-treesitter')
 
 return require('packer').startup(function()
+    use 'folke/tokyonight.nvim'
     use 'wbthomason/packer.nvim'
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'

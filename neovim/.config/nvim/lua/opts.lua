@@ -4,15 +4,17 @@ local g             = vim.g
 
 local indent        = 4
 
+vim.opt.guicursor   = ""
+vim.opt.wrap        = false
+
 vim.o.ruler         = false
 vim.o.wildmode      = 'list:longest'
 vim.o.hidden        = true
 vim.o.joinspaces    = false
 vim.o.completeopt   = 'menuone,noinsert,noselect'
 
-vim.wo.number       = true
+--vim.wo.number       = false
 
-vim.wo.wrap         = false
 vim.o.tabstop       = indent
 vim.bo.tabstop      = indent
 vim.o.softtabstop   = indent
@@ -38,3 +40,6 @@ vim.wo.list         = true
 -- Plugin options
 --g.rustfmt_autosave = 1
 --g['deoplete#enable_at_startup'] = 1
+
+-- theme, colorscheme, color
+cmd('colorscheme peachpuff')

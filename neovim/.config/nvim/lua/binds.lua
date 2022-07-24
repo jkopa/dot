@@ -8,7 +8,6 @@ local opts = {noremap = true, silent = true}
 map('i', '<C-j>', '<ESC>', opts)
 map('v', '<C-j>', '<ESC>', opts)
 
-
 -- save with ctrl-s
 map('n', '<C-s>', '<cmd>update<CR>', opts)
 map('i', '<C-s>', '<C-o><cmd>update<CR>', opts)
@@ -46,6 +45,9 @@ map('n', '<leader>s', '<cmd>lua vim.lsp.buf.document_symbol()<CR>')
 -- todo: setup better build system that will work across multiple different languages
 map('n', '<leader>b', '<cmd>!cargo r<CR>')
 map('n', '<leader>c', '<cmd>!cargo c<CR>')
+
+-- netrw
+map('n', '<leader>pv', '<cmd>Ex<CR>')
 
 -- insets a c style comment at the end of the line, only works in languages that use / for comments
 map('n', '<leader>/', '<S-$>a<Tab>/*  */<C-o>h<C-o>h')
