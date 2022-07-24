@@ -40,7 +40,7 @@ if ${use_color} ; then
     if [[ ${EUID} == 0 ]] ; then
         PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
     else
-        PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
+        PS1='\[\033[01;31m\][\u@\h\[\033[01;37m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
     fi
 
     alias ls='exa -F --color=auto'
@@ -99,10 +99,16 @@ alias py='python3'
 alias gap='git add -p'
 alias c='clear'
 
+alias ga='git add'
+alias gs='git status'
+alias gd='git diff'
+alias gc='git commit'
+
 unset rc
 
-if [[ ! $TERM =~ screen ]]; then
-    exec tmux
-fi
+#if [[ ! $TERM =~ screen ]]; then
+#    exec tmux
+#fi
 
 . "$HOME/.cargo/env"
+source ~/vulkan/1.3.216.0/setup-env.sh
