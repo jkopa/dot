@@ -5,8 +5,8 @@ vim.cmd('packadd packer.nvim')
 return require('packer').startup(function()
     use 'folke/tokyonight.nvim'
     use 'wbthomason/packer.nvim'
-    use 'vim-airline/vim-airline'
-    use 'vim-airline/vim-airline-themes'
+    --use 'vim-airline/vim-airline'
+    --use 'vim-airline/vim-airline-themes'
     --    rust formatter
     --use 'rust-lang/rust.vim'
     --    go helper
